@@ -1,7 +1,7 @@
 // models/Task.js (create a file for your schema)
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/taskMgr');
+mongoose.connect('mongodb+srv://amreetsingh355:amreet1234@cluster0.swikwz0.mongodb.net/taskMgr');
 
 const taskSchema = new mongoose.Schema({
   title: {
